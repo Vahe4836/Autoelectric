@@ -1,0 +1,48 @@
+let id = 1;
+let slideShow;
+let start = document.getElementById("slide1")
+
+slideShow = setInterval(startSlideShow,3000);
+setTimeout(startSlideShow,-1000)
+//start slideshow
+function startSlideShow(){
+
+    let current_slide = document.getElementById("slide" + id);
+    current_slide.style.display = "none";
+    if(id == 5){
+        id = 0;
+    }    
+
+   //next slide 
+    let next_slide = document.getElementById("slide" + (id + 1));
+    next_slide.style.display = "block";
+    id++;
+   //  document.getElementById("slider").innerHTML = id;  
+}
+
+function reverseSlideShow(){
+    let current_slide = document.getElementById("slide" + id);
+    current_slide.style.display = "none";
+    if(id == 1){
+        id = 6;    
+    }
+
+    let next_slide = document.getElementById("slide" + (id - 1));
+    next_slide.style.display = "block";
+    id--;
+/* document.getElementById("slider").innerHTML = id;*/
+}
+
+   //next
+document.getElementById("next").addEventListener("click",() => {
+    clearInterval(slideShow);
+    startSlideShow();
+    slideShow = setInterval(startSlideShow,3000);
+})
+
+   //previous
+document.getElementById("previous").addEventListener("click",() => {
+    clearInterval(slideShow);
+    reverseSlideShow();
+    slideShow = setInterval(startSlideShow,3000);
+})
