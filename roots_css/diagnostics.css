@@ -72,23 +72,18 @@
     user-select: none;
 }
 #slide1{
-    /* display:none; */
     background-image: url("/images/diagnostics_1.webp");
 }
 #slide2{
-    /* display:none; */
     background-image: url("/images/diagnostics_2.webp");
 }
 #slide3{
-    /* display:none; */
     background-image: url("/images/diagnostics_3.webp");
 }
 #slide4{
-    /* display:none; */
     background-image: url("/images/diagnostics_4.webp");
 }
 #slide5{
-    /* display:none; */
     background-image: url("/images/diagnostics_5.webp");
 }
 .details_text_title{
