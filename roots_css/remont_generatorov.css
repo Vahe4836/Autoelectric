@@ -95,27 +95,21 @@
     display:none;
 }
 #slide1{
-    /* display: none; */
     background-image: url("/images/generator_1.webp");
 }
 #slide2{
-    /* display: none; */
     background-image: url("/images/generator_2.webp");
 }
 #slide3{
-    /* display: none; */
     background-image: url("/images/generator_3.webp");
 }
 #slide4{
-    /* display: none; */
     background-image: url("/images/generator_4.webp");
 }
 #slide5{
-    /* display: none; */
     background-image: url("/images/generator_5.webp");
 }
 #slide6{
-    /* display: none; */
     background-image: url("/images/generator_6.webp");
 }
 @media only screen and (max-width:1000px) {
