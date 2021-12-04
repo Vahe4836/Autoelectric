@@ -59,6 +59,7 @@
     height:50vh;
     border-radius: 20px;
     background-size: cover;
+    display:none;
 }
 #previous{
     transform:rotateY(180deg);   
@@ -71,23 +72,23 @@
     user-select: none;
 }
 #slide1{
-    display:none;
+    /* display:none; */
     background-image: url("/images/diagnostics_1.webp");
 }
 #slide2{
-    display:none;
+    /* display:none; */
     background-image: url("/images/diagnostics_2.webp");
 }
 #slide3{
-    display:none;
+    /* display:none; */
     background-image: url("/images/diagnostics_3.webp");
 }
 #slide4{
-    display:none;
+    /* display:none; */
     background-image: url("/images/diagnostics_4.webp");
 }
 #slide5{
-    display:none;
+    /* display:none; */
     background-image: url("/images/diagnostics_5.webp");
 }
 .details_text_title{
