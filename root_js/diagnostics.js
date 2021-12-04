@@ -16,8 +16,7 @@ function startSlideShow(){
    //next slide 
     let next_slide = document.getElementById("slide" + (id + 1));
     next_slide.style.display = "block";
-    id++;
-   //  document.getElementById("slider").innerHTML = id;  
+    id++; 
 }
 
 function reverseSlideShow(){
@@ -30,7 +29,6 @@ function reverseSlideShow(){
     let next_slide = document.getElementById("slide" + (id - 1));
     next_slide.style.display = "block";
     id--;
-/* document.getElementById("slider").innerHTML = id;*/
 }
 
    //next
