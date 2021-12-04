@@ -99,25 +99,21 @@
     height:50vh;
     background-size: cover;
     border-radius: 20px;
+    display:none;
 }
 #slide1{
-    display:none;
     background-image: url("/images/ustanovka_dop_1.webp");
 }
 #slide2{
-    display:none;
     background-image: url("/images/ustanovka_dop_2.webp");
 }
 #slide3{
-    display:none;
     background-image: url("/images/ustanovka_dop_3.webp");
 }
 #slide4{
-    display:none;
     background-image: url("/images/ustanovka_dop_4.webp");
 }
 #slide5{
-    display:none;
     background-image: url("/images/ustanovka_dop_5.webp");
 }
 @media only screen and (max-width:1000px) {

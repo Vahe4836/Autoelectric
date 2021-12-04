@@ -103,73 +103,57 @@
     height:50vh;
     border-radius: 20px;
     background-size: cover;
+    display:none;
 }
 #slide1{
-    display:none;
     background-image: url("/images/remontnie_raboti_1.webp");
 }
 #slide2{
-    display:none;
     background-image: url("/images/remontnie_raboti_2.webp");
 }
 #slide3{
-    display:none;
     background-image: url("/images/remontnie_raboti_3.webp");
 }
 #slide4{
-    display:none;
     background-image: url("/images/remontnie_raboti_4.webp");
 }
 #slide5{
-    display:none;
     background-image: url("/images/remontnie_raboti_5.webp");
 }
 #slide6{
-    display:none;
     background-image: url("/images/remontnie_raboti_6.webp");
 }
 #slide7{
-    display:none;
     background-image: url("/images/remontnie_raboti_7.webp");
 }
 #slide8{
-    display:none;
     background-image: url("/images/remontnie_raboti_8.webp");
 }
 #slide9{
-    display:none;
     background-image: url("/images/remontnie_raboti_9.webp");
 }
 #slide10{
-    display:none;
     background-image: url("/images/remontnie_raboti_10.webp");
 }
 #slide11{
-    display:none;
     background-image: url("/images/remontnie_raboti_11.webp");
 }
 #slide12{
-    display:none;
     background-image: url("/images/remontnie_raboti_12.webp");
 }
 #slide13{
-    display:none;
     background-image: url("/images/remontnie_raboti_13.webp");
 }
 #slide14{
-    display:none;
     background-image: url("/images/remontnie_raboti_14.webp");
 }
 #slide15{
-    display:none;
     background-image: url("/images/remontnie_raboti_15.webp");
 }
 #slide16{
-    display:none;
     background-image: url("/images/remontnie_raboti_16.webp");
 }
 #slide17{
-    display:none;
     background-image: url("/images/remontnie_raboti_17.webp");
 }
 @media only screen and (max-width:1000px) {

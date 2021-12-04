@@ -92,33 +92,27 @@
     height:50vh;
     border-radius: 20px;
     background-size: cover;
+    display:none;
 }
 #slide1{
-    display: none;
     background-image: url("/images/zamena_provodok_1.webp");
 }
 #slide2{
-    display: none;
     background-image: url("/images/zamena_provodok_3.webp");
 }
 #slide3{
-    display: none;
     background-image: url("/images/zamena_provodok_3_do.webp");
 }
 #slide4{
-    display: none;
     background-image: url("/images/zamena_provodok_4.webp");
 }
 #slide5{
-    display: none;
     background-image: url("/images/zamena_provodok_5.webp");
 }
 #slide6{
-    display: none;
     background-image: url("/images/zamena_provodok_6.webp");
 }
 #slide7{
-    display: none;
     background-image: url("/images/zamena_provodok_7.webp");
 }
 @media only screen and (max-width:1000px) {
