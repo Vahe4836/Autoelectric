@@ -320,7 +320,6 @@ body{
         font-size: 22px;
     }
   } 
-  
   @media only screen and (max-width: 900px) {
     .all{
         display: grid;
@@ -364,7 +363,6 @@ body{
         width: 70vw;
     }
   } 
-
   @media only screen and (max-width: 540px) {
     .all{
         display: grid;
@@ -410,7 +408,6 @@ body{
         align-items: center;
     }
   } 
-
   @media only screen and (max-width: 400px) {
     .all{
         display: grid;
@@ -456,7 +453,6 @@ body{
         align-items: center;
     }
   } 
-
   @media only screen and (max-width: 280px) {
     .all{
         display: grid;
@@ -548,9 +544,7 @@ body{
         height: 70vh;
     }
   }
-
   /*////////////////////////  Media height  ///////////////////////*/
-
   @media only screen and (min-height:800px){
     .elements_root{
         height: 26vh;
