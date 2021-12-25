@@ -123,6 +123,9 @@ body{
     margin-right: 5px;
     user-select: none;
 }
+#address_text{
+    font-size: 14px;
+}
 .sidebar_icons{
     display: flex;
     justify-content: space-evenly;
