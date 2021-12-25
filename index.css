@@ -64,9 +64,18 @@ body{
 .work_name{
     font-size: 16px;
     font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .little_margin{
     margin-left: 4px;
+}
+.little_margin_sidebar{
+    font-size: 16px;
+    font-weight: 300;
+    margin:0px 0px 0px 4px;
+    padding: 0;
 }
 .contact_us{
     text-align: center;
