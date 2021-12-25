@@ -243,6 +243,7 @@ body{
     color: white;
     font-family: cursive;
     text-align: center;
+    font-weight: 100;
 }
 .opacity_black{
     background-color: rgba(0,0,0,0.5);
