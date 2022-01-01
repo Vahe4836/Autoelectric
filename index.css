@@ -332,6 +332,9 @@ body{
     .details_text_title{
         font-size: 22px;
     }
+    body{
+        overflow-x: hidden;
+    }
   } 
   @media only screen and (max-width: 900px) {
     .all{
