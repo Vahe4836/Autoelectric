@@ -292,6 +292,11 @@ body{
     background: rgba(240, 130, 28, 1);
 }
 /*Media width*/
+@media screen and (max-width: 1400px) {
+    body{
+        overflow-x: hidden;
+    }
+}
 @media only screen and (max-width: 1200px) {
     .all{
         display: grid;
