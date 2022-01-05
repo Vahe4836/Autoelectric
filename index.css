@@ -77,6 +77,17 @@ body{
     margin:0px 0px 0px 4px;
     padding: 0;
 }
+.title_h1{
+    font-size: 25px;
+    margin:5px 0px 0px 4px;
+}
+.title_h2{
+    font-size: 20px;
+    /* margin-left: 25px;
+    margin-top: 10px; */
+    margin:5px 0px 0px 4px;
+    font-weight: 100;
+}
 .contact_us{
     text-align: center;
     font-size: 30px;
@@ -172,9 +183,15 @@ body{
 .details_text{
     margin-left: 25px;
     margin-top: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 .details_text_title{
     margin-top: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 #details_name{
     font-family: serif;
