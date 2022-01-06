@@ -184,13 +184,11 @@ body{
     margin-left: 25px;
     margin-top: 10px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 .details_text_title{
     margin-top: 10px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 #details_name{
