@@ -209,6 +209,7 @@ body{
     color: white;
     border-radius: 20px;
     background-size: cover;
+    background-repeat: no-repeat;
     font-size: 45px;
     font-family: cursive;
     text-align: center;
