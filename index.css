@@ -210,6 +210,7 @@ body{
     border-radius: 20px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     font-size: 45px;
     font-family: cursive;
     text-align: center;
@@ -230,18 +231,33 @@ body{
 }
 .diagnostics{
     background-image: url("./images/diagnostics.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .replacement_of_wiring{
     background-image: url("./images/replacement_of_wiring.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .stove_replacement{
     background-image: url("./images/stove_replacement.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .installation_of_additional_equipment{
     background-image: url("./images/installation_of_additional_equipment.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .repair_of_alternators_and_starters{
     background-image: url("./images/repair_of_alternators_and_starters.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .test{
     position: relative;
