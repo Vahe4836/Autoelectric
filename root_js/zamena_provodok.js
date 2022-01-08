@@ -13,7 +13,6 @@ function startSlideShow(){
         id = 0;
     }    
 
-   //next slide 
     let next_slide = document.getElementById("slide" + (id + 1));
     next_slide.style.display = "block";
     id++;
