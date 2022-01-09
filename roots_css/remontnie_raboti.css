@@ -156,6 +156,14 @@
 #slide17{
     background-image: url("/images/remontnie_raboti_17.webp");
 }
+.title_h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .title_h2{
+        font-size: 20px;
+        text-align: center;
+    }
 @media only screen and (max-width:1000px) {
     #slider{
         width: 60vw;
@@ -228,6 +236,14 @@
         text-align: center;
         width: 100vw;
     }
+    /* .title_h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .title_h2{
+        font-size: 20px;
+        text-align: center;
+    } */
 }
 @media only screen and (max-width:600px){
     .root_bar_flex_remont{
