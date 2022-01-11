@@ -29,15 +29,13 @@ function reverseSlideShow(){
     next_slide.style.display = "block";
     id--;
 }
-
-   //next
+    //next
 document.getElementById("next").addEventListener("click",() => {
     clearInterval(slideShow);
     startSlideShow();
     slideShow = setInterval(startSlideShow,3000);
 })
-
-   //previous
+    //previous
 document.getElementById("previous").addEventListener("click",() => {
     clearInterval(slideShow);
     reverseSlideShow();

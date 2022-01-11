@@ -29,14 +29,12 @@ function reverseSlideShow(){
     next_slide.style.display = "block";
     id--;
 }
-
    //next
 document.getElementById("next").addEventListener("click",() => {
     clearInterval(slideShow);
     startSlideShow();
     slideShow = setInterval(startSlideShow,3000);
 })
-
    //previous
 document.getElementById("previous").addEventListener("click",() => {
     clearInterval(slideShow);
