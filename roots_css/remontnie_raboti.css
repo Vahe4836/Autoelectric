@@ -50,7 +50,6 @@
     background-size:cover;
     align-items:center;   
     position: relative;
-    /* transform: translate(50%,50%); */
 }
 .sliders{
     bottom:0;
@@ -62,15 +61,12 @@
     height:50vh;
 }
 #previous{
-    /* width:10%; */
     transform:rotateY(180deg);   
     cursor: pointer;
     user-select: none;
-    /* background-color: rgba(255, 255, 255, 0.1); */
 }
 #next{
     z-index:1;
-    /* width:10%; */
     cursor: pointer;
     user-select: none;
 }
@@ -236,14 +232,6 @@
         text-align: center;
         width: 100vw;
     }
-    /* .title_h1{
-        font-size: 35px;
-        text-align: center;
-    }
-    .title_h2{
-        font-size: 20px;
-        text-align: center;
-    } */
 }
 @media only screen and (max-width:600px){
     .root_bar_flex_remont{
