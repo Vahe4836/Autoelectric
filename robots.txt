@@ -1,3 +1,2 @@
 User-agent: * 
 Sitemap:https://autoelectrickrd.ru/index.html
-Host: https://autoelectrickrd.ru
