@@ -6,22 +6,3 @@ Sitemap:https://www.autoelectrickrd.ru/roots_html/remontnie_raboti.html
 Sitemap:https://www.autoelectrickrd.ru/roots_html/ustanovka_dop.html
 Sitemap:https://www.autoelectrickrd.ru/roots_html/remont_genertorov.html
 Host: https://autoelectrickrd.ru
-
-User-agent: Googlebot
-Sitemap:https://autoelectrickrd.ru/index.html
-Sitemap:https://www.autoelectrickrd.ru/roots_html/diagnostics.html
-Sitemap:https://www.autoelectrickrd.ru/roots_html/zamena_provodok.html
-Sitemap:https://www.autoelectrickrd.ru/roots_html/remontnie_raboti.html
-Sitemap:https://www.autoelectrickrd.ru/roots_html/ustanovka_dop.html
-Sitemap:https://www.autoelectrickrd.ru/roots_html/remont_genertorov.html
-Host: https://autoelectrickrd.ru
-
-
-User-agent: Yandex
-Sitemap:https://autoelectrickrd.ru/index.html
-Sitemap:https://www.autoelectrickrd.ru/roots_html/diagnostics.html
-Sitemap:https://www.autoelectrickrd.ru/roots_html/zamena_provodok.html
-Sitemap:https://www.autoelectrickrd.ru/roots_html/remontnie_raboti.html
-Sitemap:https://www.autoelectrickrd.ru/roots_html/ustanovka_dop.html
-Sitemap:https://www.autoelectrickrd.ru/roots_html/remont_genertorov.html
-Host: https://autoelectrickrd.ru
