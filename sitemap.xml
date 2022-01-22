@@ -11,13 +11,13 @@
 
 <url>
 <loc>https://www.autoelectrickrd.ru/roots_html/diagnostics.html</loc>
-<changefreq>Montly</changefreq>
+<changefreq>Daily</changefreq>
 <priority>0.6</priority>
 
 </url>
 <url>
 <loc>https://www.autoelectrickrd.ru/roots_html/zamena_provodok.html</loc>
-<changefreq>Montly</changefreq>
+<changefreq>Daily</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -29,13 +29,13 @@
 
 <url>
 <loc>https://www.autoelectrickrd.ru/roots_html/ustanovka_dop.html</loc>
-<changefreq>Montly</changefreq>
+<changefreq>Daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>https://www.autoelectrickrd.ru/roots_html/remont_genertorov.html</loc>
-<changefreq>Montly</changefreq>
+<changefreq>Daily</changefreq>
 <priority>0.5</priority>
 </url>
 
