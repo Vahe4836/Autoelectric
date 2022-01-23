@@ -694,7 +694,7 @@ body{
 
   /* Diagnostika*/
 
-  .root_bar_flex{
+  /* .root_bar_flex{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -918,7 +918,7 @@ body{
     }
 }
 
-/*remont generator*/
+
 
 .root_bar_flex_generator{
     display: flex;
@@ -1187,7 +1187,6 @@ body{
     }
 }
 
-/* Remontnie raboti*/
 
 .root_bar_flex_remont{
     display: flex;
@@ -1504,7 +1503,7 @@ body{
     }
 }
 
-/*Ustanovka dop*/
+
 
 .root_bar_flex_ustanovka{
     display: flex;
@@ -1777,7 +1776,7 @@ body{
     }
 }
 
-/*Zamena provodok*/
+
 
 .root_bar_flex_generator{
     display: flex;
@@ -2030,4 +2029,4 @@ body{
     .main_root{
         font-size: 18px;
     }
-}
+} */
