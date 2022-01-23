@@ -694,7 +694,7 @@ body{
 
   /* Diagnostika*/
 
-  /* .root_bar_flex{
+.root_bar_flex{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -2029,4 +2029,4 @@ body{
     .main_root{
         font-size: 18px;
     }
-} */
+}
