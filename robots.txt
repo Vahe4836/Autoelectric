@@ -1,8 +1,2 @@
 User-agent: * 
-Sitemap:https://autoelectrickrd.ru/index.html
-
-User-agent: Googlebot
-Sitemap:https://autoelectrickrd.ru/index.html
-
-User-agent: Yandexbot
-Sitemap:https://autoelectrickrd.ru/index.html
+Sitemap: https://www.autoelectrickrd.ru/sitemap.xml
