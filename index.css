@@ -316,16 +316,18 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url("./images/remontnie_raboti_17.webp");
+    /* background-image: url("./images/remontnie_raboti_17.webp"); */
     /* background-color: rgba(0,0,0,0.5); */
+    /* background-color: gray; */
+    background-image: linear-gradient(#fff,#111);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 50vh;
 }
-.footer_opacity_black{
+/* .footer_opacity_black{
     background-color: rgba(0,0,0,0.5);
-}
+} */
 .our_services{
     display: flex;
     flex-direction: column;
