@@ -335,27 +335,28 @@ body{
 }
 .footer_our_services_title_div{
     text-align: center;
+    margin: 8px;
 }
 .footer_our_services_title{
     font-size: 22px;
     color:black;
+    margin-top: 20px;
 }
 .footer_our_services_text{
     color:black;
     font-size: 18px;
     text-align: center;
 }
+.footer_autoelectric{
+    /* text-align: center; */
+    margin: 16px;
+}
 .map_title{
     font-family: cursive;
     font-size: 22px;
-    /* color: gray; */
+    margin: 20px;
     text-align: center;
 }
-/* .map_block{
-    width: 200px;
-    height: 200px;
-    background-color: gray;
-} */
 .footer_contact_us_div{
     display: flex;
     flex-direction: column;
