@@ -338,10 +338,10 @@ body{
 }
 .footer_our_services_title{
     font-size: 22px;
-    color: rgb(150, 141, 141);
+    color: black;
 }
 .footer_our_services_text{
-    color: rgb(190, 188, 188);
+    color: black;
     font-size: 18px;
     text-align: center;
 }
