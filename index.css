@@ -348,13 +348,17 @@ body{
 .map_title{
     font-family: cursive;
     font-size: 22px;
-    color: gray;
+    /* color: gray; */
     text-align: center;
 }
-.map_block{
+/* .map_block{
     width: 200px;
     height: 200px;
     background-color: gray;
+} */
+.footer_contact_us_div{
+    display: flex;
+    flex-direction: column;
 }
 .footer_contact_us{
     font-family: cursive;
