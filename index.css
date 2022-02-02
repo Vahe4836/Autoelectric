@@ -320,9 +320,10 @@ body{
     /* background-color: rgba(0,0,0,0.5); */
     /* background-color: gray; */
     background-image: linear-gradient(#fff,#111);
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    width: auto;
     height: 50vh;
 }
 /* .footer_opacity_black{
@@ -335,10 +336,10 @@ body{
 }
 .footer_our_services_title_div{
     text-align: center;
-    margin: 8px;
+    /* margin: 8px; */
 }
 .footer_our_services_title{
-    font-size: 22px;
+    font-size: 24px;
     color:black;
     margin-top: 20px;
 }
@@ -352,9 +353,13 @@ body{
 }
 .map_title{
     font-family: cursive;
-    font-size: 22px;
+    font-size: 24px;
     margin: 16px;
     text-align: center;
+}
+.map_block{
+    display: flex;
+    justify-content: center;
 }
 .footer_contact_us_div{
     display: flex;
@@ -362,13 +367,35 @@ body{
 }
 .footer_contact_us{
     font-family: cursive;
-    font-size: 22px;
-    color: gray;
+    font-size: 24px;
     text-align: center;
+}
+.footer_tel{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 0px 4px 0px;
+}
+.footer_address{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 0px 4px 0px;
 }
 .footer_contacts{
     display: flex;
     flex-direction: column;
+}
+.footer_icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 0px 0px 0px;
 }
 ::-webkit-scrollbar {
     width: 18px;
@@ -401,7 +428,7 @@ body{
      .elements_line{
         align-items: center;
         flex-direction: row;
-        width: 87vw;
+        width: 100vw;
      }
      .elements_root{
         width: 36vw;
@@ -434,6 +461,9 @@ body{
     body{
         overflow-x: hidden;
     }
+    .footer{
+        width: 100vw;
+    }
   } 
   @media only screen and (max-width: 900px) {
     .all{
@@ -463,10 +493,6 @@ body{
     .sidebar_icons{ 
         width: 40vw;
     }
-    /* .developer_div{
-        display: flex;
-        flex-direction: column;
-    } */
     .main{
         margin-left: 0px;
         width: 100vw;
@@ -476,6 +502,19 @@ body{
     }
     .root_bar_flex{
         width: 70vw;
+    }
+    .footer{
+        display: grid;
+        height: auto;
+    }
+    .footer_contact_us_div{
+        margin-bottom: 10px;
+    }
+    .map_block{
+        margin-bottom: 10px;
+    }
+    .footer_our_services_title{
+        margin-top: 20px;
     }
   } 
   @media only screen and (max-width: 540px) {
