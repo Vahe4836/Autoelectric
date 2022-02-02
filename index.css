@@ -348,13 +348,12 @@ body{
     text-align: center;
 }
 .footer_autoelectric{
-    /* text-align: center; */
     margin: 16px;
 }
 .map_title{
     font-family: cursive;
     font-size: 22px;
-    margin: 20px;
+    margin: 16px;
     text-align: center;
 }
 .footer_contact_us_div{
