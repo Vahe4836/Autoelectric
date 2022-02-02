@@ -322,11 +322,11 @@ body{
 }
 .footer_our_services_title_div{
     text-align: center;
+    margin: 10px 0px 10px 0px;
 }
 .footer_our_services_title{
     font-size: 24px;
     color:black;
-    margin-top: 20px;
 }
 .footer_our_services_text{
     color:black;
