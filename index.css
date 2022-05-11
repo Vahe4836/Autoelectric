@@ -410,15 +410,15 @@ body{
      .sidebar{
         position:inherit;
     }
-     .elements_line{
-        align-items: center;
-        flex-direction: row;
-        width: 100vw;
-     }
-     .elements_root{
-        width: 36vw;
-        height: 43vh;
-     }
+    .elements_line{
+       align-items: center;
+       flex-direction: row;
+       width: 100vw;
+    }
+    .elements_root{
+       width: 36vw;
+       height: 43vh;
+    }
     .sidebar_icons{ 
         width: 40vw;
     }
@@ -449,25 +449,25 @@ body{
     .footer{
         width: 100vw;
     }
-  } 
-  @media only screen and (max-width: 900px) {
+}
+@media only screen and (max-width: 900px) {
     .all{
         display: grid;
     } 
-     .sidebar{
+    .sidebar{
         position:inherit;
     }
-     .elements_line{
+    .elements_line{
         width: 87vw;
         display: grid;
         width: auto;
         height: auto;
         justify-content: unset;
      }
-     .elements_root{
+    .elements_root{
         width: 55vw;
         margin: 0.5em;
-     }
+    }
     #zoom{
         width: 55vw;
         transition: transform .5s ease;
@@ -501,26 +501,26 @@ body{
     .footer_our_services_title{
         margin-top: 20px;
     }
-  } 
-  @media only screen and (max-width: 540px) {
+} 
+@media only screen and (max-width: 540px) {
     .all{
         display: grid;
     } 
-     .sidebar{
+    .sidebar{
         position:inherit;
     }
-     .elements_line{
+    .elements_line{
         width: 87vw;
         display: grid;
         width: auto;
         height: auto;
         justify-content: unset;
-     }
-     .elements_root{
+    }
+    .elements_root{
         width: 80vw;
         height: 40vh;
         margin: 0.5em;
-     }
+    }
     #zoom{
         width: 80vw;
         height: 40vh;
@@ -546,26 +546,26 @@ body{
         flex-direction: column;
         align-items: center;
     }
-  } 
-  @media only screen and (max-width: 400px) {
+} 
+@media only screen and (max-width: 400px) {
     .all{
         display: grid;
     } 
      .sidebar{
         position:inherit;
     }
-     .elements_line{
+    .elements_line{
         width: 87vw;
         display: grid;
         width: auto;
         height: auto;
         justify-content: unset;
-     }
-     .elements_root{
+    }
+    .elements_root{
         width: 80vw;
         height: 40vh;
         margin: 0.5em;
-     }
+    }
     #zoom{
         width: 80vw;
         height: 40vh;
@@ -588,12 +588,12 @@ body{
         flex-direction: column;
         align-items: center;
     }
-  } 
-  @media only screen and (max-width: 280px) {
+} 
+@media only screen and (max-width: 280px) {
     .all{
         display: grid;
     } 
-     .sidebar{
+    .sidebar{
         position:inherit;
     }
     .elements_line{
@@ -630,14 +630,14 @@ body{
         flex-direction: column;
         align-items: center;
     }
-  } 
+} 
 /*Media iphone6/7/8/ height*/
-  @media only screen and (max-height:1024px) and (max-width:414px){
+@media only screen and (max-height:1024px) and (max-width:414px){
     .elements_root{
         width: 80vw;
         height: 36vh;
         margin: 0.5em;
-     }
+    }
     #zoom{
         width: 80vw;
         height: 36vh;
@@ -647,13 +647,13 @@ body{
         width: 80vw;
         height: 36vh;
     }
-  }
-  @media only screen and (max-height:823px) and (max-width:411px){
+}
+@media only screen and (max-height:823px) and (max-width:411px){
     .elements_root{
         width: 80vw;
         height: 34vh;
         margin: 0.5em;
-     }
+    }
     #zoom{
         width: 80vw;
         height: 34vh;
@@ -666,13 +666,13 @@ body{
     .footer_address{
         font-size: 13px;
     }
-  }
-  @media only screen and (max-height:414px) and (max-width:812px){
+}
+@media only screen and (max-height:414px) and (max-width:812px){
     .elements_root{
         width: 60vw;
         height: 70vh;
         margin: 0.5em;
-     }
+    }
     #zoom{
         width: 60vw;
         height: 70vh;
@@ -682,13 +682,13 @@ body{
         width: 60vw;
         height: 70vh;
     }
-  }
+}
   /* Media height */
-  @media only screen and (min-height:800px){
+@media only screen and (min-height:800px){
     .elements_root{
         height: 26vh;
         margin: 0.5em;
-     }
+    }
     #zoom{
         height: 26vh;
         transition: transform .5s ease;
@@ -696,12 +696,12 @@ body{
     .opacity_black{
         height: 26vh;
     }
-  }
-   @media only screen and (min-height:1100px){
+}
+@media only screen and (min-height:1100px){
     .elements_root{
         height: 20vh;
         margin: 0.5em;
-     }
+    }
     #zoom{
         height: 20vh;
         transition: transform .5s ease;
@@ -709,12 +709,12 @@ body{
     .opacity_black{
            height: 20vh;
     }
-  } 
-  @media only screen and (min-height:1200px){
+} 
+@media only screen and (min-height:1200px){
     .elements_root{
         height: 21vh;
         margin: 0.5em;
-     }
+    }
     #zoom{
         height: 21vh;
         transition: transform .5s ease;
@@ -722,12 +722,12 @@ body{
     .opacity_black{
         height: 21vh;
     }
-  }
-  @media only screen and (min-height:1300px){
+}
+@media only screen and (min-height:1300px){
     .elements_root{
         height: 20vh;
         margin: 0.5em;
-     }
+    }
     #zoom{
         height: 20vh;
         transition: transform .5s ease;
@@ -735,12 +735,12 @@ body{
     .opacity_black{
         height: 20vh;
     }
-  }
-  @media only screen and (max-height:600px){
+}
+@media only screen and (max-height:600px){
     .elements_root{
         height: 45vh;
         margin: 0.5em;
-     }
+    }
     #zoom{
         height: 45vh;
         transition: transform .5s ease;
@@ -748,12 +748,12 @@ body{
     .opacity_black{
         height: 45vh;
     }
-  }
-  @media only screen and (max-height:500px){
+}
+@media only screen and (max-height:500px){
     .elements_root{
         height: 53vh;
         margin: 0.5em;
-     }
+    }
     #zoom{
         height: 53vh;
         transition: transform .5s ease;
@@ -761,8 +761,8 @@ body{
     .opacity_black{
         height: 53vh;
     }
-  }
-  @media only screen and (max-height:400px){
+}
+@media only screen and (max-height:400px){
     .elements_root{
         height: 60vh;
         margin: 0.5em;
@@ -774,4 +774,4 @@ body{
     .opacity_black{
         height: 60vh;
     }
-  }
+}

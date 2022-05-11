@@ -1,6 +1,6 @@
 let id = 1;
 let slideShow;
-let start = document.getElementById("slide1")
+let start = document.getElementById("slide1");
 
 slideShow = setInterval(startSlideShow,3000);
 setTimeout(startSlideShow,-1000)
