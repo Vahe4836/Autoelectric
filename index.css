@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
     margin-top: 10px;
 }
 
@@ -42,27 +43,12 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .sidebar {
     background-color: rgb(43, 43, 43);
     height: 100vh;
     width: 22vw;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     position: fixed;
 }
 
@@ -73,14 +59,6 @@ body {
     background-color: rgba(241, 128, 22, 0.88);
     height: 100vh;
     width: 22vw;
-}
-
-.logo {
-    user-select: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* height: 20vh; */
 }
 
 .pass_text {
@@ -120,13 +98,6 @@ body {
     font-weight: 300;
     font-size: 20px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -281,8 +252,8 @@ body {
 }
 
 .elements_root {
-    width: 36vw;
-    height: 43vh;
+    width: 35vw;
+    height: 40vh;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border-radius: 20px;
@@ -301,13 +272,19 @@ body {
 }
 
 #zoom {
-    width: 36vw;
-    height: 43vh;
+    width: 35vw;
+    height: 40vh;
     transition: transform .5s ease;
 }
 
 #zoom:hover {
     transform: scale(1.15);
+}
+
+.opacity_black {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 35vw;
+    height: 40vh;
 }
 
 .diagnostics {
@@ -375,12 +352,6 @@ body {
     font-family: cursive;
     text-align: center;
     font-weight: 100;
-}
-
-.opacity_black {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 36vw;
-    height: 43vh;
 }
 
 .developer_div {
@@ -515,7 +486,6 @@ body {
         display: grid;
     }
 
-
     .sidebar {
         position: inherit;
         width: 100vw;
@@ -543,10 +513,6 @@ body {
         width: 40vw;
         height: 15vh;
     }
-
-
-
-
 
     .elements_line {
         align-items: center;
@@ -592,8 +558,6 @@ body {
         display: grid;
     }
 
-
-
     .sidebar {
         position: inherit;
         width: 100vw;
@@ -622,10 +586,6 @@ body {
         height: 15vh;
     }
 
-
-
-
-
     .elements_line {
         width: 87vw;
         display: grid;
@@ -636,18 +596,19 @@ body {
 
     .elements_root {
         width: 55vw;
+        height: 35vh;
         margin: 0.5em;
     }
 
     #zoom {
         width: 55vw;
+        height: 35vh;
         transition: transform .5s ease;
     }
 
     .opacity_black {
         width: 55vw;
     }
-
 
     .main {
         margin-left: 0px;
@@ -684,10 +645,6 @@ body {
         display: grid;
     }
 
-
-
-
-
     .sidebar {
         position: inherit;
         width: 100vw;
@@ -715,8 +672,6 @@ body {
         width: 40vw;
         height: 15vh;
     }
-
-
 
     .elements_line {
         width: 87vw;
@@ -766,9 +721,6 @@ body {
         display: grid;
     }
 
-
-
-
     .sidebar {
         position: inherit;
         width: 100vw;
@@ -797,9 +749,6 @@ body {
         height: 15vh;
     }
 
-
-
-
     .elements_line {
         width: 87vw;
         display: grid;
@@ -810,19 +759,19 @@ body {
 
     .elements_root {
         width: 80vw;
-        height: 40vh;
+        height: 10px;
         margin: 0.5em;
     }
 
     #zoom {
         width: 80vw;
-        height: 40vh;
+        height: 10vh;
         transition: transform .5s ease;
     }
 
     .opacity_black {
         width: 80vw;
-        height: 40vh;
+        height: 10vh;
     }
 
     .sidebar_icons {
@@ -958,20 +907,20 @@ body {
 
 @media only screen and (max-width:414px) and (max-height:812px) {
     .elements_root {
-        width: 60vw;
-        height: 70vh;
+        width: 70vw;
+        height: 35vh;
         margin: 0.5em;
     }
 
     #zoom {
-        width: 60vw;
-        height: 70vh;
+        width: 70vw;
+        height: 35vh;
         transition: transform .5s ease;
     }
 
     .opacity_black {
-        width: 60vw;
-        height: 70vh;
+        width: 70vw;
+        height: 35vh;
     }
 }
 
@@ -981,8 +930,6 @@ body {
         height: 26vh;
         margin: 0.5em;
     }
-
-
 
     .sidebar {
         position: inherit;
@@ -1011,10 +958,6 @@ body {
         width: 40vw;
         height: 15vh;
     }
-
-
-
-
 
     #zoom {
         height: 26vh;
@@ -1107,25 +1050,6 @@ body {
         height: 45vh;
         margin: 0.5em;
     }
-
-
-
-
-
-    /* .sidebar {
-        position: inherit;
-        width: 100vw;
-        height: 97vh;
-    }
-
-    .orange_opacity {
-        width: 100vw;
-        height: 100vh;
-    } */
-
-
-
-
 
     #zoom {
         height: 45vh;
