@@ -759,13 +759,13 @@ body {
 
     .elements_root {
         width: 80vw;
-        height: 10px;
+        height: 30vh;
         margin: 0.5em;
     }
 
     #zoom {
         width: 80vw;
-        height: 10vh;
+        height: 30vh;
         transition: transform .5s ease;
     }
 
