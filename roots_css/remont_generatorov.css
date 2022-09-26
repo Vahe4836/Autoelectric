@@ -14,13 +14,13 @@
     height: 30vh;
 }
 
-.contact_us {
+/* .contact_us {
     height: 5vh;
 }
 
 .sidebar_icons {
     height: 15vh;
-}
+} */
 
 .slider {
     width: 45vw;
@@ -255,9 +255,6 @@
         margin-bottom: 25px;
     }
 
-    .sidebar {
-        height: 640px;
-    }
 }
 
 @media only screen and (max-width:450px) {

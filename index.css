@@ -516,9 +516,6 @@ body {
     }
 
 
-
-
-
     .sidebar {
         position: inherit;
         width: 100vw;
@@ -764,7 +761,6 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
-
 
     .all {
         display: grid;
@@ -1170,5 +1166,46 @@ body {
 
     .opacity_black {
         height: 60vh;
+    }
+}
+
+@media only screen and (max-height:801px) and (max-width: 1281px) and (min-height: 799px) and (min-width: 1199px) {
+
+    /* .main{
+        margin-left: 0vw;
+    } */
+
+    .elements_line{
+        width: 78vw;
+    }
+
+    .elements_root {
+        width: 30vw;
+        margin: 0.5em;
+    }
+
+    .sidebar {
+        position: fixed;
+        width: 22vw;
+        height: 100vh;
+    }
+
+    .orange_opacity {
+        width: 22vw;
+        height: 100vh;
+    }
+
+    .sidebar_icons{
+        width: 17vw;
+    }
+}
+
+@media only screen and (max-height:601px) and (max-width: 1025px) and (min-height: 599px) and (min-width: 1023px) {
+    .sidebar {
+        height: 100vh;
+    }
+
+    .orange_opacity {
+        height: 100vh;
     }
 }
