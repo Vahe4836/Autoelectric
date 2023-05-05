@@ -939,7 +939,7 @@ body {
 /* Media height */
 @media only screen and (min-height:800px) and (max-height: 916px) {
     .elements_root {
-        height: 26vh;
+        height: 20vh;
         margin: 0.5em;
     }
 
@@ -975,6 +975,47 @@ body {
 
     .opacity_black {
         height: 26vh;
+    }
+}
+
+@media only screen and (min-height:917px) {
+    .elements_root {
+        height: 20vh;
+        margin: 0.5em;
+    }
+
+    .sidebar {
+        height: 100vh;
+        position: fixed;
+    }
+
+    .orange_opacity {
+        height: 100vh;
+    }
+
+    .pass_text {
+        height: 30vh;
+    }
+
+    .contact_us {
+        height: 4vh;
+    }
+
+    .contact_us_text {
+        height: 30vh;
+    }
+
+    .sidebar_icons {
+        height: 15vh;
+    }
+
+    #zoom {
+        height: 20vh;
+        transition: transform .5s ease;
+    }
+
+    .opacity_black {
+        height: 20vh;
     }
 }
 
