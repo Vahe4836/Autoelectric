@@ -475,6 +475,18 @@ body {
 }
 
 /*Media width*/
+
+@media screen and (max-width: 3000px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .all {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     body {
         overflow-x: hidden;
@@ -932,14 +944,12 @@ body {
     }
 
     .sidebar {
-        position: inherit;
-        width: 100vw;
-        height: 77vh;
+        height: 100vh;
+        position: fixed;
     }
 
     .orange_opacity {
-        width: 100vw;
-        height: 80vh;
+        height: 100vh;
     }
 
     .pass_text {
@@ -955,7 +965,6 @@ body {
     }
 
     .sidebar_icons {
-        width: 40vw;
         height: 15vh;
     }
 
@@ -991,15 +1000,8 @@ body {
         margin: 0.5em;
     }
 
-    .sidebar {
-        position: inherit;
-        width: 100vw;
-        height: 52vh;
-    }
-
     .orange_opacity {
-        width: 100vw;
-        height: 57vh;
+        height: 100vh;
     }
 
     .pass_text {
@@ -1015,7 +1017,6 @@ body {
     }
 
     .sidebar_icons {
-        width: 40vw;
         height: 15vh;
     }
 
@@ -1099,7 +1100,7 @@ body {
         margin-left: 0vw;
     } */
 
-    .elements_line{
+    .elements_line {
         width: 78vw;
     }
 
@@ -1119,7 +1120,7 @@ body {
         height: 100vh;
     }
 
-    .sidebar_icons{
+    .sidebar_icons {
         width: 17vw;
     }
 }
